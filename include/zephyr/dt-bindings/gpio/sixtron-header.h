@@ -66,6 +66,34 @@
 #define DIO35    78
 #define DIO36    80
 
+// Alternate functions
+
+#define DIO13_PWM 28
+#define DIO7_PWM 11
+#define DIO8_PWM 9
+
+#define DIO12_UART_RX 18
+#define DIO18_UART_TX 38
+
+#define DIO10_DFSDM1_DATIN 14
+#define DIO11_DFSDM1_CLKOUT 16
+
+#define DIO12_DCMI_VSYNC 18
+#define DIO13_DCMI_D0 28
+#define DIO14_DCMI_D1 30
+#define DIO15_DCMI_D2 32
+#define DIO16_DCMI_D3 34
+#define DIO17_DCMI_D4 36
+#define DIO18_DCMI_D5 38
+#define DIO19_DCMI_D6 46
+#define DIO20_DCMI_D7 48
+#define DIO7_DCMI_PIXCLK 11
+#define DIO8_DCMI_HSYNC 9
+
+#define DIO5_RCC_MCO 17
+
+#define DIO7_ADC 11
+
 /** @} */
 
 #endif /* INCLUDE_ZEPHYR_DT_BINDINGS_GPIO_SIXTRON_HEADER_H_ */
