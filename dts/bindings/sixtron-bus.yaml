@@ -17,7 +17,7 @@ description: |
         60 DIO26                  PWM1      59
         58 DIO25                  PWM2      57
         56 DIO24                  PWM3      55
-        54 DIO23                  ICAP      53
+        54 DIO23                  ICAPT     53
         52 DIO22                  WKUP      51
         50 DIO21                  DIO1      49
         48 DIO20                  DIO2      47

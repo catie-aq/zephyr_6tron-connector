@@ -22,7 +22,7 @@
 #define PWM1     59
 #define PWM2     57
 #define PWM3     55
-#define ICAP     53
+#define ICAPT    53
 #define WKUP     51
 #define ADC1     39
 #define ADC2     37
