@@ -1,0 +1,30 @@
+# Copyright (c) 2023 CATIE
+# SPDX-License-Identifier: Apache-2.0
+
+description: |
+    ADC channels exposed on sixtron connector.
+
+    The sixtron connector layout provides a 4-pin Analog Input.
+    Thishas analog input signals labeled from ADC1 to ADC4.
+
+    This binding provides a nexus mapping for these pins.
+
+compatible: "sixtron-adc"
+
+include: [base.yaml]
+
+properties:
+  io-channel-map:
+    type: compound
+    required: true
+
+  io-channel-map-mask:
+    type: compound
+
+  io-channel-map-pass-thru:
+    type: compound
+
+  "#io-channel-cells":
+    type: int
+    required: true
+    description: Number of items to expect in an ADC specifier
