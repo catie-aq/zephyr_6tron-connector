@@ -5,7 +5,7 @@ description: |
     ADC channels exposed on sixtron connector.
 
     The sixtron connector layout provides a 4-pin Analog Input.
-    Thishas analog input signals labeled from ADC1 to ADC4.
+    This has analog input signals labeled from ADC1 to ADC4.
 
     This binding provides a nexus mapping for these pins.
 
