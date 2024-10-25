@@ -1,0 +1,28 @@
+# Copyright (c) 2023 CATIE
+# SPDX-License-Identifier: Apache-2.0
+
+description: |
+    PWM pins exposed on 6TRON connector.
+
+    The sixtron connector layout provides a 3-pin PWM Output.
+    This has output signals labeled from PWM1 to PWM3.
+
+compatible: "sixtron-pwm"
+
+include: [base.yaml]
+
+properties:
+  pwm-map:
+    type: compound
+    required: true
+
+  pwm-map-mask:
+    type: compound
+
+  pwm-map-pass-thru:
+    type: compound
+
+  "#pwm-cells":
+    type: int
+    required: true
+    description: Number of items to expect in a PWM specifier
