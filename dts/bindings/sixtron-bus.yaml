@@ -6,8 +6,8 @@ description: |
 
         80 DIO36                  CAN_RX    79
         78 DIO35                  CAN_TX    77
-        76 DIO34                  I2C1_SCL  75
-        74 DIO33                  I2C1_SDA  73
+        76 DIO34                  I2C_SCL   75
+        74 DIO33                  I2C_SDA   73
         72 DIO32                  UART_RX   71
         70 DIO31                  UART_TX   69
         68 DIO30                  SPI_MOSI  67
